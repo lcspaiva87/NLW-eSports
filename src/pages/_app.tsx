@@ -4,7 +4,7 @@ import type { AppProps } from 'next/app'
 import { theme } from '../globals/styles/global'
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ChakraProvider theme={theme}>
+    <ChakraProvider resetCSS theme={theme}>
       <Component {...pageProps} />
     </ChakraProvider>
   )
