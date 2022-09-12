@@ -5,6 +5,7 @@ export const theme = extendTheme({
     styles: {
         global: {
             body: {
+                background:'##000000',
                 fontFamily:
                     "sans-serif,Inter ",
                 WebKitFontSmoothing: "antialiased",
@@ -12,7 +13,7 @@ export const theme = extendTheme({
                 margin: 0,
                 padding: 0,
                 boxSizing: ' border-box',
-                bgImage:"linear-gradient(rgb(99 59 188 / 13%), rgba(0,0,0)), url(/nevoa.png),url(/estrelas.png) ",  
+                bgImage:"linear-gradient(#633bbc1c, rgba(0,0,0)), url(/nevoa.png),url(/estrelas.png) ",  
                 color: "#fff"
 
             },
