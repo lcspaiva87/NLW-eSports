@@ -13,6 +13,7 @@ export const theme = extendTheme({
                 boxSizing:' border-box',
                 bgImage:"linear-gradient(rgba(99, 59, 188, 1), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0)) ,url(/nevoa.png),url(/estrelas.png) ",
                 //background:'',
+                color:"#fff"
               
             },
 
