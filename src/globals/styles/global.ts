@@ -16,7 +16,6 @@ export const theme = extendTheme({
         color: "#fff",
         backgroundRepeat: "no-repeat",
       },
-
       code: {
         fontFamily: "Inter ",
       },
